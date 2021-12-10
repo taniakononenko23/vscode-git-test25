@@ -12,28 +12,33 @@
       crossorigin="anonymous"
     />
     <style>
-      .block_red {
-        background-color: red;
-        height: 200px;
-      }
-      .block_green {
-        background-color: green;
-        height: 200px;
-      }
-      .block_blue {
-        background-color: blue;
-        height: 200px;
-      }
-      .block_yellow {
+      .header {
         background-color: yellow;
-        height: 200px;
+        height: 50px;
+      }
+      .content {
+        background-color: pink;
+        height: 500px;
+        float: left;
+        width: 80%;
+      }
+      .Sidebar {
+        background-color: grey;
+        height: 500px;
+        float: left;
+        width: 20%;
+      }
+      .footer {
+        background-color: green;
+        height: 50px;
+        clear: both;
       }
     </style>
   </head>
   <body>
-    <header class="block_red">Блок1</header>
-    <main class="block_green">Блок2</main>
-    <aside class="block_blue">Блок3</aside>
-    <footer class="block_yellow">Блок4</footer>
+    <header class="header">header</header>
+    <main class="content">main</main>
+    <aside class="Sidebar">Sidebar</aside>
+    <footer class="footer">footer</footer>
   </body>
 </html>
